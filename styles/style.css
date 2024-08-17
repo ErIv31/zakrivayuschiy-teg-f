@@ -251,7 +251,7 @@
 @supports (-webkit-text-stroke: 1px var(--bg-color, #fff)) {
   .card__watermark {
     text-shadow: none;
-    -webkit-text-stroke: 1px var(--bg-color, #fff);    
+    -webkit-text-stroke: 1px var(--bg-color, #fff);
   }
 }
 
