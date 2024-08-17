@@ -11,15 +11,15 @@
   --main-color: #00cc14;
   --bg-color: #000;
   --bg-image-gradient: repeating-linear-gradient(
-      to right,
-      #000 0px,
+      to top,
+      #000 0,
       #000 2px,
       transparent 2px,
       transparent 4px
     ),
     repeating-linear-gradient(
-      to bottom,
-      #000 0px,
+      to right,
+      #000 0,
       #000 2px,
       transparent 2px,
       transparent 4px
@@ -36,15 +36,15 @@
   --main-color: #000;
   --bg-color: #fff;
   --bg-image-gradient: repeating-linear-gradient(
-      to right,
-      #d3d3d3 0px,
+      to top,
+      #d3d3d3 0,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
     ),
     repeating-linear-gradient(
-      to bottom,
-      #d3d3d3 0px,
+      to right,
+      #d3d3d3 0,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
@@ -62,15 +62,15 @@
     --main-color: #000;
     --bg-color: #fff;
     --bg-image-gradient: repeating-linear-gradient(
-        to right,
-        #d3d3d3 0px,
+        to top,
+        #d3d3d3 0,
         #d3d3d3 2px,
         transparent 2px,
         transparent 4px
       ),
       repeating-linear-gradient(
-        to bottom,
-        #d3d3d3 0px,
+        to right,
+        #d3d3d3 0,
         #d3d3d3 2px,
         transparent 2px,
         transparent 4px

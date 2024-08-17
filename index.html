@@ -19,7 +19,7 @@
   <body class="page">
     <header class="header">
       <nav class="theme-menu header__theme-menu">
-        <p class="header__title">&lt;/HTML&gt;</p>
+        <a class="header__title">&lt;/HTML&gt;</a>
         <h1 class="header__subtitle">Закрывающий тег</h1>
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -548,40 +548,40 @@
           </div>
         </article>
       </div>
-    </main>
-    <footer class="footer">
-      <button
-        type="button"
-        class="button footer__button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg class="card__icon-button footer__button-icon" viewBox="0 0 21 21">
-          <use href="svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-      <dialog class="dialog__container" id="dialog-id">
-        <div class="dialog__icon">
-          <svg
-            class="card__icon-button dialog__button-icon"
-            width="40"
-            height="40"
-            viewBox="0 0 21 21"
-          >
+      <div class="memory">
+        <button
+          type="button"
+          class="button memory__button"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
+          <svg class="memory__button-icon" viewBox="0 0 21 21">
             <use href="svg/floppy.svg#floppy"></use>
           </svg>
-          <h3 class="dialog__title">Вставьте дискету, чтобы продолжить</h3>
-        </div>
-        <button
-          class="button dialog__button"
-          type="button"
-          onclick="window['dialog-id'].close()"
-        >
-          <span class="button__text dialog__close">ок</span>
+          <span class="button__text">Сохранить на&nbsp;память</span>
         </button>
-      </dialog>
-    </footer>
+        <dialog class="dialog__container" id="dialog-id">
+          <div class="dialog__icon">
+            <svg
+              class="dialog__button-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 21 21"
+            >
+              <use href="svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="dialog__title">Вставьте дискету, чтобы продолжить</p>
+          </div>
+          <button
+            class="button dialog__button"
+            type="button"
+            onclick="window['dialog-id'].close()"
+          >
+            <span class="button__text dialog__close">ок</span>
+          </button>
+        </dialog>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

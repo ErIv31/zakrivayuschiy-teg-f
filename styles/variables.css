@@ -8,15 +8,15 @@
   --main-color: #00cc14;
   --bg-color: #000;
   --bg-image-gradient: repeating-linear-gradient(
-      to right,
-      #000 0px,
+      to top,
+      #000 0,
       #000 2px,
       transparent 2px,
       transparent 4px
     ),
     repeating-linear-gradient(
-      to bottom,
-      #000 0px,
+      to right,
+      #000 0,
       #000 2px,
       transparent 2px,
       transparent 4px
